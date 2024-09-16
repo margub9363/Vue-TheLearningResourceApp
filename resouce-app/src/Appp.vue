@@ -1,19 +1,11 @@
 <template>
-  <TheHeader title="Remember Me" />
-  <TheResources />
+  <p>Hello</p>
 </template>
 
 <script>
-import TheHeader from "./components/layouts/TheHeader.vue";
-import TheResources from "./components/UI/TheResources.vue";
-
 export default {
-  name: "App",
-  components: {
-    TheHeader,
-    TheResources,
-  },
-  mounted() {},
+  name: "ApppWorld",
+  components: {},
 };
 </script>
 
