@@ -1,5 +1,5 @@
 <template>
-  <li>
+  <base-card>
     <header>
       <h3>{{ title }}</h3>
       <button>Delete</button>
@@ -8,7 +8,7 @@
     <nav>
       <a :href="link">View Resource</a>
     </nav>
-  </li>
+  </base-card>
 </template>
 ;
 
@@ -16,6 +16,7 @@
 export default {
   name: "LearningResource",
   props: ["title", "description", "link"],
+  components: {},
   mounted() {},
 };
 </script>
